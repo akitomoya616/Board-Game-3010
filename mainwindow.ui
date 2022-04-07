@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>100</y>
+      <width>400</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player1Label">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>110</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Player 1 Status</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="player2Label">
+    <property name="geometry">
+     <rect>
+      <x>625</x>
+      <y>110</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Player 2 Status</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="upButton">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>330</y>
+      <width>50</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Up</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="leftButton">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>370</y>
+      <width>50</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Left</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rightButton">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>370</y>
+      <width>50</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Right</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="downButton_1">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>410</y>
+      <width>50</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Down</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="icon_view">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>100</y>
+      <width>140</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="warningLabel">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>30</y>
+      <width>441</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Warning:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hp1Label">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>150</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HP: 10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="armor1Label">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>190</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Armor: 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="attack1Label">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>230</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Attack: 5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hp2Label">
+    <property name="geometry">
+     <rect>
+      <x>625</x>
+      <y>150</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HP: 10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="armor2Label">
+    <property name="geometry">
+     <rect>
+      <x>625</x>
+      <y>190</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Armor: 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="attack2Label">
+    <property name="geometry">
+     <rect>
+      <x>625</x>
+      <y>230</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Attack: 5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="updateLabel">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>70</y>
+      <width>491</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="currentPlayerLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>241</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Current Player: Player 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="instructionButton">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>30</y>
+      <width>120</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Instruction</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
